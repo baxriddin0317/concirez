@@ -1,4 +1,4 @@
-import { Block, Hero, HowItWork, InfiniteSection, Pricing, Testimonial } from "@/components";
+import { Block, FAQs, Hero, HowItWork, InfiniteSection, Pricing, Testimonial } from "@/components";
 import Image from "next/image";
 
 export default function Home() {
@@ -16,6 +16,7 @@ export default function Home() {
         />
       </div>
       <Pricing />
+      <FAQs />
     </main>
   );
 }

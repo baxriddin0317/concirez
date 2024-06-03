@@ -3,8 +3,10 @@ import React from "react";
 export const Pricing = () => {
   return (
     <section className="py-12 overflow-y-hidden relative">
+      {/* shadows */}
       <div className="absolute -top-28 left-1/2 -translate-y-full -translate-x-1/2 w-[600px] md:w-[1440px] h-[735px] bg-brand-orange blur-[250px]"></div>
       <div className="absolute -bottom-28 left-1/2 translate-y-full -translate-x-1/2 w-[600px] md:w-[1440px] h-[735px] bg-brand-orange blur-[250px]"></div>
+
       <div className="max-w-7xl mx-auto px-4 lg:px-5 py-1">
         {/* head */}
         <div className="max-w-xl mx-auto space-y-4 text-center">
@@ -52,7 +54,7 @@ export const Pricing = () => {
                 </div>
               ))}
             </div>
-            <button className="flex items-center justify-center bg-brand-orange rounded-full h-14 pb-1 text-lg font-atyp hover:bg-transparent hover:text-brand-orange border border-brand-orange px-9">
+            <button className="flex items-center justify-center bg-brand-orange rounded-full h-14 pb-1 text-lg font-atyp hover:bg-transparent border border-brand-orange px-9">
             Get started
             </button>
           </div>
@@ -112,7 +114,7 @@ export const Pricing = () => {
                 ))}
               </div>
             </div>
-            <button className="flex items-center justify-center bg-brand-orange rounded-full h-14 pb-1 text-lg font-atyp hover:bg-transparent hover:text-brand-orange border border-brand-orange px-9">
+            <button className="flex items-center justify-center bg-brand-orange rounded-full h-14 pb-1 text-lg font-atyp hover:bg-transparent border border-brand-orange px-9">
             Get started
             </button>
           </div>
