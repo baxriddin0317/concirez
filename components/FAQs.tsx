@@ -6,19 +6,19 @@ export const FAQs = () => {
     <section className='max-w-7xl mx-auto px-4 lg:px-5 py-24 my-1'>
       {/* head */}
       <div className="max-w-xl mx-auto space-y-4 text-center">
-        <p className="text-brand-orange text-lg font-bold uppercase">FAQs</p>
-        <h3 className="font-atyp text-5xl capitalize font-semibold">
+        <p className="text-brand-orange md:text-lg font-bold uppercase">FAQs</p>
+        <h3 className="font-atyp text-4xl md:text-5xl capitalize font-semibold">
         Get Your <span className="text-brand-orange">Answers</span>
         </h3>
-        <p className="text-lg">
+        <p className="md:text-lg">
         Explore our FAQ section to find solutions to your queries about Concirez and our exclusive reservation services.
         </p>
       </div>
       {/* dropdowns */}
-      <div className='grid lg:grid-cols-2 gap-x-10 gap-y-6'>
-        <div className='flex flex-col gap-y-6 mt-10'>
+      <div className='grid lg:grid-cols-2 gap-x-10 gap-y-6 mt-10'>
+        <div className='flex flex-col gap-y-6'>
           {disclosureData.filter(item => item.id % 2 !== 0).map(item => (
-            <Disclosure as="div" key={item.id} defaultOpen={item.id === 1} className="bg-secondary backdrop-blur-lg border border-brand-black-100 p-7 rounded-2xl">
+            <Disclosure as="div" key={item.id} defaultOpen={item.id === 1} className="bg-secondary backdrop-blur-lg border border-brand-black-100 p-4 md:p-7 rounded-2xl">
               <DisclosureButton className="w-full h-20 group flex items-center justify-between">
                 <span className='line-clamp-2 text-2xl text-left'>
                 {item.title}
@@ -29,15 +29,15 @@ export const FAQs = () => {
                   </svg>
                 </span>
               </DisclosureButton>
-                <DisclosurePanel className="text-lg leading-8 pt-4">
+                <DisclosurePanel className="md:text-lg leading-8 pt-4">
                   {item.text}
                 </DisclosurePanel>
             </Disclosure>
           ))}
         </div>
-        <div className='flex flex-col gap-y-6 mt-10'>
+        <div className='flex flex-col gap-y-6'>
           {disclosureData.filter(item => item.id % 2 == 0).map(item => (
-            <Disclosure as="div" key={item.id} className="bg-secondary backdrop-blur-lg border border-brand-black-100 p-7 rounded-2xl">
+            <Disclosure as="div" key={item.id} className="bg-secondary backdrop-blur-lg border border-brand-black-100 p-4 md:p-7 rounded-2xl">
               <DisclosureButton className="w-full h-20 group flex items-center justify-between">
                 <span className='line-clamp-2 text-2xl text-left'>
                 {item.title}
@@ -48,7 +48,7 @@ export const FAQs = () => {
                   </svg>
                 </span>
               </DisclosureButton>
-                <DisclosurePanel className="text-lg leading-8 pt-4">
+                <DisclosurePanel className="md:text-lg leading-8 pt-4">
                   {item.text}
                 </DisclosurePanel>
             </Disclosure>
@@ -56,11 +56,11 @@ export const FAQs = () => {
         </div>
       </div>
 
-      <div className='flex items-center justify-center mt-10 gap-6'>
-        <button className="flex items-center justify-center bg-brand-orange rounded-full h-14 pb-1 text-lg font-atyp border border-brand-orange px-9">
+      <div className='flex flex-col md:flex-row items-stretch md:items-center justify-center mt-10 gap-6'>
+        <button className="flex items-center justify-center bg-brand-orange rounded-full h-14 pb-1 md:text-lg font-atyp border border-brand-orange px-9">
         Ask Question
         </button>
-        <button className="flex items-center justify-center bg-transparent rounded-full h-14 pb-1 text-lg font-atyp border border-brand-orange px-9">
+        <button className="flex items-center justify-center bg-transparent rounded-full h-14 pb-1 md:text-lg font-atyp border border-brand-orange px-9">
         View More Question
         </button>
       </div>

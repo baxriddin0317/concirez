@@ -8,11 +8,11 @@ export const HowItWork = () => {
     <section className="relative max-w-7xl mx-auto px-4 lg:px-5 text-center mt-24">
       {/* head */}
       <div className="max-w-3xl mx-auto space-y-4">
-        <p className="text-brand-orange text-lg font-bold uppercase">how</p>
-        <h3 className="font-atyp text-5xl capitalize font-semibold">
+        <p className="text-brand-orange md:text-lg font-bold uppercase">how</p>
+        <h3 className="font-atyp text-4xl md:text-5xl capitalize font-semibold">
           How it <span className="text-brand-orange">Works?</span>
         </h3>
-        <p className="text-lg">
+        <p className="md:text-lg">
           Concirez streamlines the process of securing exclusive restaurant
           reservations for reservation traders. With our easy-to-use desktop
           application, you can access some of the most sought-after restaurants
@@ -22,37 +22,37 @@ export const HowItWork = () => {
       {/* tab */}
       <TabGroup className="flex flex-col lg:flex-row items-center gap-10 mt-14">
         <TabList className="w-full max-w-[541px] flex-1 flex flex-col gap-6">
-          <Tab className="bg-secondary backdrop-blur-xl text-left px-11 py-7 border border-brand-black-100 rounded-2xl data-[selected]:bg-tab data-[selected]:py-12 data-[selected]:outline-none">
+          <Tab className="bg-secondary backdrop-blur-xl text-left px-4 py-4 md:px-11 md:py-7 border border-brand-black-100 rounded-2xl data-[selected]:bg-tab data-[selected]:py-6 data-[selected]:md:py-12 data-[selected]:outline-none">
             {({ hover, selected }) => (
               <>
-                <h3 className="text-2xl font-atyp">
+                <h3 className="text-xl md:text-2xl font-atyp">
                 01. Browse Exclusive Restaurants
                 </h3>
-                <p className={`text-xl mt-2.5 ${selected ? '' : 'hidden'}`}>
+                <p className={`md:text-xl mt-2.5 ${selected ? '' : 'hidden'}`}>
                 Discover a curated selection of the world's top restaurants.
                 </p>
               </>
             )}
           </Tab>
-          <Tab className="bg-secondary backdrop-blur-xl text-left px-11 py-7 border border-brand-black-100 rounded-2xl data-[selected]:bg-tab data-[selected]:py-12 data-[selected]:outline-none">
+          <Tab className="bg-secondary backdrop-blur-xl text-left px-4 py-4 md:px-11 md:py-7 border border-brand-black-100 rounded-2xl data-[selected]:bg-tab data-[selected]:py-6 data-[selected]:md:py-12 data-[selected]:outline-none">
           {({ hover, selected }) => (
               <>
-                <h3 className="text-2xl font-atyp">
+                <h3 className="text-xl md:text-2xl font-atyp">
                 02. Reserve with Ease
                 </h3>
-                <p className={`text-xl mt-2.5 ${selected ? '' : 'hidden'}`}>
+                <p className={`md:text-xl mt-2.5 ${selected ? '' : 'hidden'}`}>
                 Discover a curated selection of the world's top restaurants.
                 </p>
               </>
             )}
           </Tab>
-          <Tab className="bg-secondary backdrop-blur-xl text-left px-11 py-7 border border-brand-black-100 rounded-2xl data-[selected]:bg-tab data-[selected]:py-12 data-[selected]:outline-none">
+          <Tab className="bg-secondary backdrop-blur-xl text-left px-4 py-4 md:px-11 md:py-7 border border-brand-black-100 rounded-2xl data-[selected]:bg-tab data-[selected]:py-6 data-[selected]:md:py-12 data-[selected]:outline-none">
           {({ hover, selected }) => (
               <>
-                <h3 className="text-2xl font-atyp">
+                <h3 className="text-xl md:text-2xl font-atyp">
                 03. Enjoy Exclusive Dining
                 </h3>
-                <p className={`text-xl mt-2.5 ${selected ? '' : 'hidden'}`}>
+                <p className={`md:text-xl mt-2.5 ${selected ? '' : 'hidden'}`}>
                 Discover a curated selection of the world's top restaurants.
                 </p>
               </>
@@ -65,12 +65,12 @@ export const HowItWork = () => {
               <TabCard key={idx} />
             ))}
           </TabPanel>
-          <TabPanel className="w-full flex flex-col gap-2 px-12 lg:px-16 py-5">
+          <TabPanel className="w-full flex flex-col gap-2 px-4 sm:px-16 lg:px-4 xl:px-16 py-5">
             {[...Array(5)].map((item, idx) => (
               <TabCard key={idx} />
             ))}
           </TabPanel>
-          <TabPanel className="w-full flex flex-col gap-2 px-12 lg:px-16 py-5">
+          <TabPanel className="w-full flex flex-col gap-2 px-4 sm:px-16 lg:px-4 xl:px-16 py-5">
             {[...Array(3)].map((item, idx) => (
               <TabCard key={idx} />
             ))}
@@ -85,7 +85,7 @@ export const HowItWork = () => {
 
 const TabCard = () => {
   return (
-    <div className="flex items-center bg-card px-3 py-2.5 border border-brand-black-100 rounded-lg text-brand-gray">
+    <div className="flex flex-wrap items-center bg-card px-3 py-2.5 border border-brand-black-100 rounded-lg text-brand-gray">
       <div className="flex items-center gap-2">
         <Image className="rounded" src={'/img/card-1.png'} width={30} height={30} alt="" />
         <h4 className="text-xxs">
@@ -107,7 +107,7 @@ const TabCard = () => {
         May 27,2024 / 08:17:57 AM
         </p>
       </div>
-      <div className="flex items-center gap-4 ml-auto">
+      <div className="flex items-center gap-1 md:gap-4 ml-auto">
         <button>
           <svg xmlns="http://www.w3.org/2000/svg" width={12} height={13} viewBox="0 0 12 13" fill="none">
             <path d="M1.86503 0.478189L10.8458 5.67314V5.67432C10.9901 5.7575 11.1094 5.87437 11.1922 6.01372C11.2749 6.15306 11.3184 6.31019 11.3184 6.47001C11.3184 6.62982 11.2749 6.78695 11.1922 6.9263C11.1094 7.06564 10.9901 7.18252 10.8458 7.26569L1.86753 12.4606C1.71056 12.5512 1.53028 12.5991 1.34643 12.5992C1.08303 12.6001 0.830008 12.5021 0.642994 12.3267C0.455979 12.1513 0.350276 11.9128 0.349121 11.6638V1.27505C0.349377 1.10901 0.396401 0.946031 0.485356 0.802871C0.574312 0.659711 0.701988 0.541539 0.855256 0.460507C1.01 0.378196 1.18517 0.336439 1.36269 0.339548C1.5402 0.342656 1.71362 0.390517 1.86503 0.478189Z" fill="#27AE60" />

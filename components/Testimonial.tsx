@@ -25,19 +25,19 @@ export const Testimonial = () => {
         {/* head */}
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-4 items-center justify-between">
           <div className="max-w-xl space-y-4">
-            <p className="text-brand-orange text-lg font-bold  uppercase">
+            <p className="text-brand-orange md:text-lg font-bold  uppercase">
               Testimonial
             </p>
-            <h3 className="font-atyp text-5xl capitalize font-semibold">
+            <h3 className="font-atyp text-4xl md:text-5xl capitalize font-semibold">
               What our <span className="text-brand-orange">clients say</span>
             </h3>
-            <p className="text-lg">
+            <p className="md:text-lg">
               Discover how our Resy Bot is transforming dining experiences for
               food enthusiasts across New York.
             </p>
           </div>
-          <div className="flex items-center gap-6">
-            <button className="bg-brand-orange border border-brand-orange whitespace-nowrap px-8 py-4 rounded-full text-lg">
+          <div className="flex w-full flex-col md:flex-row items-stretch lg:items-center justify-center gap-6">
+            <button className=" bg-brand-orange border border-brand-orange whitespace-nowrap px-8 py-4 rounded-full text-lg">
               Leave a Review
             </button>
             <button className="bg-transparent whitespace-nowrap border border-brand-orange px-8 py-4 rounded-full text-lg">
@@ -79,7 +79,7 @@ export const Testimonial = () => {
 const Card = () => {
   return (
     <div className="flex items-stretch gap-5">
-      <div className="relative w-48 h-72 rounded-2xl border border-brand-black-100 backdrop-blur-lg bg-secondary"></div>
+      <div className="relative w-48 md:h-72 rounded-2xl border border-brand-black-100 backdrop-blur-lg bg-secondary"></div>
       <div className="flex flex-col justify-between flex-1 py-2">
         <div className="flex items-center gap-2.5">
           {[...Array(5)].map((item, idx) => (

@@ -14,9 +14,9 @@ export const Footer = () => {
         <Link href={'/'}>
           <Image src={'/img/mini-logo.svg'} width={167} height={41} alt='logo' />
         </Link>
-        <nav className='hidden md:flex items-center gap-14 mt-2'>
+        <nav className='flex items-center gap-14 mt-2'>
           {links.map((link) => (
-            <Link className='text-lg hover:text-brand-orange transition-all ease-in-out' href={link.href} key={link.id}>{link.name}</Link>
+            <Link className='md:text-lg hover:text-brand-orange transition-all ease-in-out' href={link.href} key={link.id}>{link.name}</Link>
           ))}
         </nav>
         <div className='flex items-center gap-4 mt-8'>
@@ -38,9 +38,9 @@ export const Footer = () => {
         </p>
         <Form />
 
-        <div className='w-full flex items-center justify-between mt-16'>
-          <p className='text-lg'>Copyright © 2023 Concirez | All Rights Reserved </p>
-          <nav className='hidden md:flex items-center gap-8 mt-2'>
+        <div className='w-full flex flex-col lg:flex-row gap-4 items-center justify-between mt-16'>
+          <p className='md:text-lg text-center md:text-left'>Copyright © 2023 Concirez | All Rights Reserved </p>
+          <nav className='flex items-center gap-4 sm:gap-8 mt-2'>
             {terms.map((link) => (
               <Link className='text-sm hover:text-brand-orange transition-all ease-in-out underline' href={link.href} key={link.id}>{link.name}</Link>
             ))}
@@ -48,7 +48,7 @@ export const Footer = () => {
         </div>
         <div className='w-full h-px bg-secondary-2 mt-3'></div>
       </div>
-      <div className="absolute -bottom-0 left-1/2 translate-y-full -translate-x-1/2 w-[600px] md:w-[1440px] h-[735px] bg-brand-orange blur-[250px]"></div>
+      <div className="absolute -bottom-40 left-1/2 translate-y-full -translate-x-1/2 w-[600px] md:w-[1440px] h-[735px] bg-brand-orange blur-[250px]"></div>
     </footer>
   )
 }

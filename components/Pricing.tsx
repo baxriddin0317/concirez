@@ -19,7 +19,7 @@ export const Pricing = () => {
           </p>
         </div>
         <div className="flex flex-col lg:flex-row items-stretch gap-5 border border-brand-black-100 bg-secondary backdrop-blur-lg rounded-2xl p-4 mt-11">
-          <div className="bg-transparent w-full flex-1 md:p-10">
+          <div className="bg-transparent w-full flex-1 p-4 md:p-10">
             <div className="flex items-center lg:min-w-[394px] justify-between mb-6">
               <div className="flex w-[72px] h-[72px] items-center justify-center border border-brand-black-100 rounded-2xl">
                 <svg xmlns="http://www.w3.org/2000/svg" width={34} height={34} viewBox="0 0 34 34" fill="none">
@@ -30,10 +30,10 @@ export const Pricing = () => {
               $99/mo
               </span>
             </div>
-            <h3 className="text-normal font-atyp mb-2.5">
+            <h3 className="text-4xl md:text-normal font-atyp mb-2.5">
             Basic Plan
             </h3>
-            <p className="text-lg mb-6">
+            <p className="md:text-lg mb-6">
             Vitae commodo consectetur volutpat aolme atolmerol euismod amet at arcu volutpa.
             </p>
             <div className="flex flex-col gap-4 mb-14">
@@ -59,7 +59,7 @@ export const Pricing = () => {
             </button>
           </div>
           {/* second card */}
-          <div className="w-full lg:max-w-[704px] bg-brand-black/70 p-10 rounded-2xl">
+          <div className="w-full lg:max-w-[704px] bg-brand-black/70 p-4 md:p-10 rounded-2xl">
             <div className="flex items-center lg:min-w-[394px] justify-between mb-6">
               <div className="flex w-[72px] h-[72px] items-center justify-center border border-brand-black-100 rounded-2xl">
                 <svg xmlns="http://www.w3.org/2000/svg" width={31} height={28} viewBox="0 0 31 28" fill="none">
@@ -70,10 +70,10 @@ export const Pricing = () => {
               $399/mo
               </span>
             </div>
-            <h3 className="text-normal font-atyp mb-2.5">
+            <h3 className="text-4xl md:text-normal font-atyp mb-2.5">
             Enterprise Plan
             </h3>
-            <p className="text-lg mb-6">
+            <p className="md:text-lg mb-6">
             Vitae commodo consectetur volutpat a atolmerol euismod amet at arcu volutpat aliquet justo.
             </p>
             <div className="flex w-full gap-4 justify-between items-center flex-wrap">
