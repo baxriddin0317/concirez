@@ -3,7 +3,7 @@ import React from 'react'
 export const Ready = () => {
   return (
     <section className='max-w-7xl mx-auto px-4 lg:px-5 py-40 relative'>
-      <div className='absolute top-1/2 -translate-x-1/2 left-1/2 -translate-y-1/2 -z-10 w-[1200px] h-[292px] blur-[136px] bg-brand-orange'></div>
+      <div className='absolute top-1/2 -translate-x-1/2 left-1/2 -translate-y-1/2 -z-10 max-w-[1200px] w-full h-[292px] blur-[136px] bg-brand-orange'></div>
       <div className='w-full flex flex-col items-center justify-center border border-brand-orange bg-secondary backdrop-blur-lg rounded-2xl px-4 py-16'>
         <h3 className='text-4xl md:text-5xl text-center font-atyp mb-4'>Ready to Elevate Your Dining Experience?</h3>
         <p className='md:text-lg text-center'>
