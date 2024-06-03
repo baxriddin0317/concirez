@@ -92,10 +92,10 @@ const Card = () => {
         </div>
         <div className="text-lg max-w-96">
           <h3 className="font-black">
-          "Game-changer for Foodies!"
+          &quot;Game-changer for Foodies!&quot;
           </h3>
           <p className="leading-8 lg:pr-10">
-          I've never had such an easy time booking tables at my favorite restaurants in NYC. This bot has truly revolutionized the way I dine out.
+          I&apos;ve never had such an easy time booking tables at my favorite restaurants in NYC. This bot has truly revolutionized the way I dine out.
           </p>
         </div>
         <div>

@@ -29,7 +29,7 @@ export const HowItWork = () => {
                 01. Browse Exclusive Restaurants
                 </h3>
                 <p className={`md:text-xl mt-2.5 ${selected ? '' : 'hidden'}`}>
-                Discover a curated selection of the world's top restaurants.
+                Discover a curated selection of the world&apos;s top restaurants.
                 </p>
               </>
             )}
@@ -41,7 +41,7 @@ export const HowItWork = () => {
                 02. Reserve with Ease
                 </h3>
                 <p className={`md:text-xl mt-2.5 ${selected ? '' : 'hidden'}`}>
-                Discover a curated selection of the world's top restaurants.
+                Discover a curated selection of the world&apos;s top restaurants.
                 </p>
               </>
             )}
@@ -53,7 +53,7 @@ export const HowItWork = () => {
                 03. Enjoy Exclusive Dining
                 </h3>
                 <p className={`md:text-xl mt-2.5 ${selected ? '' : 'hidden'}`}>
-                Discover a curated selection of the world's top restaurants.
+                Discover a curated selection of the world&apos;s top restaurants.
                 </p>
               </>
             )}

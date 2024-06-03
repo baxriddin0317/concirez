@@ -15,7 +15,7 @@ export const Pricing = () => {
             Pricing <span className="text-brand-orange">Plan</span>
           </h3>
           <p className="text-lg">
-          Discover affordable plans tailored to your reservation needs, ensuring seamless access to New York's culinary scene.
+          Discover affordable plans tailored to your reservation needs, ensuring seamless access to New York&apos;s culinary scene.
           </p>
         </div>
         <div className="flex flex-col lg:flex-row items-stretch gap-5 border border-brand-black-100 bg-secondary backdrop-blur-lg rounded-2xl p-4 mt-11">
