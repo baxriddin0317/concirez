@@ -39,7 +39,7 @@ export const Header = () => {
         </div>
         <nav className='flex flex-col items-center gap-6 mt-10'>
           {links.map((link) => (
-            <Link className='text-lg hover:text-brand-orange transition-all ease-in-out' href={link.href} key={link.id}>{link.name}</Link>
+            <Link onClick={() => setOpen(false)} className='text-lg hover:text-brand-orange transition-all ease-in-out' href={link.href} key={link.id}>{link.name}</Link>
           ))}
         </nav>
         <div className='flex items-center justify-center gap-4 mt-8'>
@@ -57,7 +57,7 @@ export const Header = () => {
           </Link>
         </div>
 
-        <button className='flex bg-transparent items-center justify-center h-14 pb-1 px-8 rounded-full border border-brand-orange text-lg font-atyp hover:bg-brand-orange transition-all duration-300 ease-in-out mt-10 mx-auto'>
+        <button onClick={() => setOpen(false)} className='flex bg-transparent items-center justify-center h-14 pb-1 px-8 rounded-full border border-brand-orange text-lg font-atyp hover:bg-brand-orange transition-all duration-300 ease-in-out mt-10 mx-auto'>
         Sign Up
         </button>
       </div>
