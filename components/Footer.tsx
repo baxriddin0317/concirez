@@ -1,11 +1,11 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import { links } from './Header'
 import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa'
 import { BsTwitterX } from 'react-icons/bs'
 import { RiInstagramFill } from 'react-icons/ri'
 import Form from './common/Form'
+import { links } from '@/utils/data'
 
 export const Footer = () => {
   return (
