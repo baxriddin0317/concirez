@@ -30,7 +30,8 @@ const config: Config = {
         'primary': "linear-gradient(180deg, rgba(246, 246, 246, 0.05) 0%",
         'tab': "linear-gradient(0deg, rgba(255, 70, 45, 0.80) 0%, rgba(153, 42, 27, 0.80) 100%)",
         'card': "linear-gradient(90deg, rgba(246, 246, 246, 0.05) 0%, rgba(144, 144, 144, 0.05) 100%)",
-        'secondary': "linear-gradient(270deg, rgba(246, 246, 246, 0.05) 0%, rgba(144, 144, 144, 0.05) 100%)"
+        'secondary': "linear-gradient(270deg, rgba(246, 246, 246, 0.05) 0%, rgba(144, 144, 144, 0.05) 100%)",
+        'secondary-2': "linear-gradient(270deg, rgba(18, 18, 18, 0.00) 0%, #FF462D 50%, rgba(18, 18, 18, 0.00) 100%)"
       },
       fontFamily: {
         'hanken': ['Hanken Grotesk', 'sans serif'],

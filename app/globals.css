@@ -10,7 +10,7 @@
 }
 
 body{
-  @apply bg-brand-black text-white font-hanken pb-10
+  @apply bg-brand-black text-white font-hanken
 }
 
 .swiper-pagination {

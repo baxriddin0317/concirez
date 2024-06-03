@@ -4,8 +4,8 @@ export const Pricing = () => {
   return (
     <section className="py-12 overflow-y-hidden relative">
       {/* shadows */}
-      <div className="absolute -top-28 left-1/2 -translate-y-full -translate-x-1/2 w-[600px] md:w-[1440px] h-[735px] bg-brand-orange blur-[250px]"></div>
-      <div className="absolute -bottom-28 left-1/2 translate-y-full -translate-x-1/2 w-[600px] md:w-[1440px] h-[735px] bg-brand-orange blur-[250px]"></div>
+      <div className="absolute -top-0 left-1/2 -translate-y-full -translate-x-1/2 w-[600px] md:w-[1440px] h-[735px] bg-brand-orange blur-[250px]"></div>
+      <div className="absolute -bottom-0 left-1/2 translate-y-full -translate-x-1/2 w-[600px] md:w-[1440px] h-[735px] bg-brand-orange blur-[250px]"></div>
 
       <div className="max-w-7xl mx-auto px-4 lg:px-5 py-1">
         {/* head */}

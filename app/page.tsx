@@ -1,5 +1,13 @@
-import { Block, FAQs, Hero, HowItWork, InfiniteSection, Pricing, Ready, Testimonial } from "@/components";
-import Image from "next/image";
+import {
+  Block,
+  FAQs,
+  Hero,
+  HowItWork,
+  InfiniteSection,
+  Pricing,
+  Ready,
+  Testimonial,
+} from "@/components";
 
 export default function Home() {
   return (
@@ -9,11 +17,7 @@ export default function Home() {
       <Testimonial />
       <HowItWork />
       <div className="mt-20 antialiased relative overflow-hidden py-8">
-        <InfiniteSection
-          items={infiniteData}
-          direction="right"
-          speed="slow"
-        />
+        <InfiniteSection items={infiniteData} direction="right" speed="slow" />
       </div>
       <Pricing />
       <FAQs />
@@ -24,24 +28,24 @@ export default function Home() {
 
 const infiniteData = [
   {
-    title: "Data Analytics"
+    title: "Data Analytics",
   },
   {
-    title: "Reservation Alerts"
+    title: "Reservation Alerts",
   },
   {
-    title: "Monthly Reports"
+    title: "Monthly Reports",
   },
   {
-    title: "Mobile App Access"
+    title: "Mobile App Access",
   },
   {
-    title: "Limited Restaurant Access"
+    title: "Limited Restaurant Access",
   },
   {
-    title: "Data Analytics"
+    title: "Data Analytics",
   },
   {
-    title: "Email Notifications"
+    title: "Email Notifications",
   },
-]
+];

@@ -3,19 +3,19 @@ import Link from 'next/link'
 import React from 'react'
 import { RiMenu3Fill } from 'react-icons/ri'
 
-const links = [
+export const links = [
   {
     id: 1,
     name: "Pricing",
     href: "#"
   },
   {
-    id: 1,
+    id: 2,
     name: "How?",
     href: "#"
   },
   {
-    id: 1,
+    id: 3,
     name: "FAQs",
     href: "#"
   },
