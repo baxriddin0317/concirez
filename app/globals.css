@@ -9,6 +9,10 @@
   @apply w-0
 }
 
+html{
+  @apply scroll-smooth
+}
+
 body{
   @apply bg-brand-black text-white font-hanken
 }

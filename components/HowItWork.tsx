@@ -5,7 +5,7 @@ import React from "react";
 
 export const HowItWork = () => {
   return (
-    <section className="relative max-w-7xl mx-auto px-4 lg:px-5 text-center mt-24">
+    <section id="how" className="relative max-w-7xl mx-auto px-4 lg:px-5 text-center pt-24">
       {/* head */}
       <div className="max-w-3xl mx-auto space-y-4">
         <p className="text-brand-orange md:text-lg font-bold uppercase">how</p>

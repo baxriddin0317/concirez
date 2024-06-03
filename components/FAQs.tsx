@@ -3,7 +3,7 @@ import React from 'react'
 
 export const FAQs = () => {
   return (
-    <section className='max-w-7xl mx-auto px-4 lg:px-5 py-24 my-1'>
+    <section id='faqs' className='max-w-7xl mx-auto px-4 lg:px-5 py-24 my-1'>
       {/* head */}
       <div className="max-w-xl mx-auto space-y-4 text-center">
         <p className="text-brand-orange md:text-lg font-bold uppercase">FAQs</p>
