@@ -28,7 +28,7 @@ export const Header = () => {
         </button>
       </div>
       {/* mobile menu */}
-      <div className={`fixed z-[999] md:hidden backdrop-blur-xl bg-secondary h-screen top-0 ${open ? 'left-0 ' : '-left-full'} w-full overflow-hidden border border-brand-black-100 px-8 pt-12 transition-all duration-300 ease-in-out`}>
+      <div className={`fixed z-[999] md:hidden bg-black h-screen top-0 ${open ? 'left-0 ' : '-left-full'} w-full overflow-hidden px-8 pt-12 transition-all duration-300 ease-in-out`}>
         <div className='w-full flex items-center justify-between'>
           <Link href={'/'}>
             <Image src={'/img/logo.svg'} width={167} height={41} alt='logo' />
