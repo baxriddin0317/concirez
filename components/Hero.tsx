@@ -16,7 +16,7 @@ export const Hero = () => {
         <div className="max-w-3xl w-full text-center">
           <p className="md:text-lg mb-6">WELCOME TO CONCIREZ</p>
           <h1 className="text-4xl md:text-6xl font-medium leading-normal font-atyp sm:px-4 lg:px-8">
-            Discover Exclusive Dining Experiences with <span className="inline-block text-brand-black relative before:absolute before:w-full before:h-14 before:left-0 before:md:top-2 before:-z-10 before:bg-brand-orange">Concirez</span>
+            Discover Exclusive Dining Experiences with <span className="inline-block text-brand-black relative before:absolute before:w-full before:h-14 before:left-0 before:top-1 before:md:top-[7px] before:-z-10 before:bg-brand-orange">Concirez</span>
           </h1>
         </div>
         <div className="max-w-[458px] w-full">
