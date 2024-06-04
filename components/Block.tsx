@@ -6,7 +6,7 @@ export const Block = () => {
     <section className='relative mt-14'>
       <div className='max-w-7xl relative mx-auto px-4 lg:px-5'>
         <div className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 -z-10 max-w-96 w-full h-48 md:max-w-[942px] md:h-[425px] bg-brand-orange blur-[136px]'></div>
-        <div className="absolute -z-10 top-0 left-1/2 -translate-x-1/2 w-full max-w-[556px] h-[109px] rounded-[756.046px] blur-[109px] bg-brand-orange"></div>
+        {/* <div className="absolute -z-10 top-0 left-1/2 -translate-x-1/2 w-full max-w-[556px] h-[109px] rounded-[756.046px] blur-[109px] bg-brand-orange"></div> */}
         <div className='w-full max-h-[642px] h-full overflow-y-scroll bg-primary backdrop-blur-xl border border-brand-black-100 rounded-2xl px-5 pt-5 pb-8'>
           <Image className='w-full rounded-2xl overflow-hidden' src={'/img/dashboard.jpg'} alt='ddashboard' width={1156} height={822} />
         </div>

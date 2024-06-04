@@ -12,15 +12,15 @@ export const Hero = () => {
         height={536}
         alt=""
       />
-      <div className="max-w-7xl flex flex-col lg:flex-row items-center justify-between text-center lg:text-left gap-4 mx-auto px-4 lg:px-10 pt-20 lg:pt-28">
-        <div className="max-w-3xl lg:max-w-lg w-full">
-          <p className="md:text-lg mb-2">WELCOME TO CONCIREZ</p>
-          <h1 className="text-4xl md:text-big font-medium leading-normal font-atyp">
-            Discover Exclusive Dining Experiences with <span className="inline-block text-brand-black relative before:absolute before:w-full before:h-14 before:left-0 before:md:top-4 before:-z-10 before:bg-brand-orange">Concirez</span>
+      <div className="max-w-7xl flex flex-col items-center justify-between text-center lg:text-left gap-4 mx-auto px-4 pt-20 lg:pt-28">
+        <div className="max-w-3xl w-full text-center">
+          <p className="md:text-lg mb-6">WELCOME TO CONCIREZ</p>
+          <h1 className="text-4xl md:text-6xl font-medium leading-normal font-atyp sm:px-4 lg:px-8">
+            Discover Exclusive Dining Experiences with <span className="inline-block text-brand-black relative before:absolute before:w-full before:h-14 before:left-0 before:md:top-2 before:-z-10 before:bg-brand-orange">Concirez</span>
           </h1>
         </div>
-        <div className="max-w-lg lg:max-w-[458px] w-full">
-          <p className="md:text-lg mb-5">
+        <div className="max-w-[458px] w-full">
+          <p className="md:text-lg mb-8 text-center">
           Experience the finest restaurants in the world, hassle-free. Sign up now!
           </p>
           <Form />
